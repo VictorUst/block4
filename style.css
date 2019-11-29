@@ -37,10 +37,16 @@ body {
 
 .page {
   max-width: 1440px;
-  padding: 0 32px 0 352px;
+  display: flex;
+  margin: 0 auto;
 }
 
 .page-header {
+  order: 2;
+  padding: 0 32px 0 32px;
+}
+
+.title-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -173,12 +179,10 @@ body {
 }
 
 .menu-site {
-  position: fixed;
-  top: 0;
-  left: 0;
   display: flex;
   flex-direction: column;
-  width: 320px;
+  min-width: 320px;
+  order: 1;
   height: 100%;
   padding: 24px;
   background: #ffffff;
@@ -197,6 +201,11 @@ body {
 .menu-site__logo {
   padding-left: 12px;
   flex-grow: 2;
+}
+
+.menu-site__link {
+  display: inline-block;
+  width: 100%;
 }
 
 .btn__close::after {
@@ -221,6 +230,8 @@ body {
 }
 
 .nav-site__link {
+  display: inline-block;
+  width: 100%;
   text-decoration: none;
   color: #1b1c21;
   font-size: 16px;
@@ -258,11 +269,22 @@ body {
 
 .email,
 .phone {
+  display: inline-block;
   text-decoration: none;
   color: #1b1c21;
+<<<<<<< HEAD
+=======
+}
+
+.email {
+  padding-top: 24px;
+  padding-bottom: 12px;
+>>>>>>> master
 }
 
 .phone {
+  padding-top: 12px;
+  padding-bottom: 12px;
   font-size: 24px;
   line-height: 32px;
   font-weight: 900;

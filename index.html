@@ -12,42 +12,45 @@
 <body>
   <div class="page">
     <header class="page-header">
-      <h1 class="title">Услуги и сервисы</h1>
-      <div class="btn-header">
-        <button class="btn btn__request" name="request">Оставить заявку</button>
-        <button class="btn btn__status" name="status">Статус ремонта</button>
-      </div>
-    </header>
-    <main class="page-main">
-      <nav>
-        <ul class="nav-page">
-          <li class="nav-page__item"><a class="nav-page__link" href="#">Ремонтируемые бренды</a></li>
-          <li class="nav-page__item"><a class="nav-page__link" href="#">Ремонтируемые устройства</a></li>
-          <li class="nav-page__item"><a class="nav-page__link" href="#">Цены на услуги</a></li>
-          <li class="nav-page__item"><a class="nav-page__link" href="#">Адреса сервисных центров</a></li>
-          <li class="nav-page__item"><a class="nav-page__link" href="#">Специальные цены</a></li>
-          <li class="nav-page__item"><a class="nav-page__link" href="#">Отзывы</a></li>
-        </ul>
-      </nav>
-      <section class="main-content">
-        <div class="main-content__textContainer">
-          <p class="main-content__text">
-            Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы
-            можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
-            <br><br>
-            Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что
-            подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам
-            обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.
-          </p>
-          <button class="main-content__btnFurther" name="further">Читать далее</button>
+      <header class="title-header">
+        <h1 class="title">Услуги и сервисы</h1>
+        <div class="btn-header">
+          <button class="btn btn__request" name="request">Оставить заявку</button>
+          <button class="btn btn__status" name="status">Статус ремонта</button>
         </div>
-        <div class="main-content__logo"><img src="img/cps.png" alt="Логотип компании"></div>
-      </section>
-    </main>
+      </header>
+      <main class="header-main">
+        <nav>
+          <ul class="nav-page">
+            <li class="nav-page__item"><a class="nav-page__link" href="#">Ремонтируемые бренды</a></li>
+            <li class="nav-page__item"><a class="nav-page__link" href="#">Ремонтируемые устройства</a></li>
+            <li class="nav-page__item"><a class="nav-page__link" href="#">Цены на услуги</a></li>
+            <li class="nav-page__item"><a class="nav-page__link" href="#">Адреса сервисных центров</a></li>
+            <li class="nav-page__item"><a class="nav-page__link" href="#">Специальные цены</a></li>
+            <li class="nav-page__item"><a class="nav-page__link" href="#">Отзывы</a></li>
+          </ul>
+        </nav>
+        <section class="main-content">
+          <div class="main-content__textContainer">
+            <p class="main-content__text">
+              Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы
+              можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
+              <br><br>
+              Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что
+              подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам
+              обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.
+            </p>
+            <button class="main-content__btnFurther" name="further">Читать далее</button>
+          </div>
+          <div class="main-content__logo"><img src="img/cps.png" alt="Логотип компании"></div>
+        </section>
+      </main>
+    </header>
     <aside class="menu-site">
       <header class="menu-site__header">
         <button class="btn btn__close" name="close" type="button"></button>
-        <div class="menu-site__logo"><img src="img/logo.svg" alt="Логотип"></div>
+        <div class="menu-site__logo"><a class="menu-site__link" href="#"><img src="img/logo.svg" alt="Логотип"></a>
+        </div>
         <button class="btn btn__search" name="search" type="button"></button>
       </header>
       <nav class="nav-site">
@@ -68,8 +71,8 @@
           <button class="btn btn__message" name="message"></button>
           <button class="btn btn__profile" name="profile"></button>
         </div>
-        <p><a class="email" href="mailto:mail@cps.com">mail@cps.com</a></p>
-        <p><a class="phone" href="tel:+88008908900">8 800 890 8900</a></p>
+        <div><a class="email" href="mailto:mail@cps.com">mail@cps.com</a></div>
+        <div><a class="phone" href="tel:+88008908900">8 800 890 8900</a></div>
         <ul class="lang-container">
           <li class="lang-item"><a class="lang-link lang-link__active" href="#">RU</a></li>
           <li class="lang-item"><a class="lang-link" href="#">EN</a></li>
